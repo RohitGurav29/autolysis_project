@@ -15,7 +15,7 @@ import openai
 
 # Set AI Proxy API base and token
 openai.api_base = "https://aiproxy.sanand.workers.dev/openai/v1"
-openai.api_key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZHMyMDAwMTM2QGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.aZJLYrq4UV4N1SfjXhNfctmCM8cbRGzmWkSW37nSy0c"  # Replace with your actual proxy token
+openai.api_key = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjI0ZHMyMDAwMTM2QGRzLnN0dWR5LmlpdG0uYWMuaW4ifQ.aZJLYrq4UV4N1SfjXhNfctmCM8cbRGzmWkSW37nSy0c"  
 
 # Define the main analysis function
 def analyze_csv(file_path):
